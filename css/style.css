@@ -2,3 +2,8 @@
 .custom-carousel-style {
     background-image: linear-gradient(rgb(185, 255, 177), rgba(255, 195, 195, 0.83));
 }
+
+/* Best Fetaured Bikes 2023 */
+.card-bg-style {
+    background-color: rgb(209, 209, 209);
+}
