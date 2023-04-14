@@ -12,6 +12,8 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!-- custome css -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/0d431ea328.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -47,6 +49,11 @@
                         <li class="nav-item">
                             <a class="nav-link fw-bold" href="#">Login</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -60,8 +67,87 @@
                             <div class="w-50">
                                 <h1>Yamaha FZS FI V2 Double Disc</h1>
                                 <h4>Price: 224,500 BDT</h4>
-                                <button type="button" class="btn btn-primary text-uppercase">Order
-                                    Now</button>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary text-uppercase fw-bold"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    Order Now
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Place Orde</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form class="row g-3">
+                                                    <div class="col-md-7">
+                                                        <label for="inputName4" class="form-label">Name</label>
+                                                        <input type="name" class="form-control" id="inputName4">
+                                                    </div>
+                                                    <div class="col-md-5">
+                                                        <label for="inputEmail4" class="form-label">Email</label>
+                                                        <input type="email" class="form-control" id="inputEmail4">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <label for="inputMobile4" class="form-label">Mobile</label>
+                                                        <input type="number" class="form-control" id="inputMobile4">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <label for="inputAddress" class="form-label">Delivary
+                                                            Address</label>
+                                                        <input type="text" class="form-control" id="inputAddress"
+                                                            placeholder="City, House, Road">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <label for="inputAddress2" class="form-label">Parmanent
+                                                            Address</label>
+                                                        <input type="text" class="form-control" id="inputAddress2"
+                                                            placeholder="City, House, Road">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <label for="inputCity" class="form-label">National ID</label>
+                                                        <input type="text" class="form-control" id="inputCity"
+                                                            placeholder="782xxxxxxxx">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <label for="inputState" class="form-label">District</label>
+                                                        <select id="inputState" class="form-select">
+                                                            <option selected>Choose...</option>
+                                                            <option>Dhaka</option>
+                                                            <option>Chattogram</option>
+                                                            <option>Khulna</option>
+                                                            <option>Rajshahi</option>
+                                                            <option>Mymensingh</option>
+                                                            <option>Borishal</option>
+                                                            <option>Cumilla</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <label for="inputZip" class="form-label">Zip Code</label>
+                                                        <input type="text" class="form-control" id="inputZip">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox"
+                                                                id="gridCheck">
+                                                            <label class="form-check-label" for="gridCheck">
+                                                                Accept all <small><a href="#">Agreement </a></small>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-success fw-bold">Place
+                                                    Order</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
@@ -75,7 +161,87 @@
                             <div class="w-50">
                                 <h1>Hero Hunk 150R</h1>
                                 <h4>Price: 195,500 BDT</h4>
-                                <button type="button" class="btn btn-primary text-uppercase fw-bold">Order Now</button>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary text-uppercase fw-bold"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                                    Order Now
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal1" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Place Orde</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form class="row g-3">
+                                                    <div class="col-md-7">
+                                                        <label for="inputName4" class="form-label">Name</label>
+                                                        <input type="name" class="form-control" id="inputName4">
+                                                    </div>
+                                                    <div class="col-md-5">
+                                                        <label for="inputEmail4" class="form-label">Email</label>
+                                                        <input type="email" class="form-control" id="inputEmail4">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <label for="inputMobile4" class="form-label">Mobile</label>
+                                                        <input type="number" class="form-control" id="inputMobile4">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <label for="inputAddress" class="form-label">Delivary
+                                                            Address</label>
+                                                        <input type="text" class="form-control" id="inputAddress"
+                                                            placeholder="City, House, Road">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <label for="inputAddress2" class="form-label">Parmanent
+                                                            Address</label>
+                                                        <input type="text" class="form-control" id="inputAddress2"
+                                                            placeholder="City, House, Road">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <label for="inputCity" class="form-label">National ID</label>
+                                                        <input type="text" class="form-control" id="inputCity"
+                                                            placeholder="782xxxxxxxx">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <label for="inputState" class="form-label">District</label>
+                                                        <select id="inputState" class="form-select">
+                                                            <option selected>Choose...</option>
+                                                            <option>Dhaka</option>
+                                                            <option>Chattogram</option>
+                                                            <option>Khulna</option>
+                                                            <option>Rajshahi</option>
+                                                            <option>Mymensingh</option>
+                                                            <option>Borishal</option>
+                                                            <option>Cumilla</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <label for="inputZip" class="form-label">Zip Code</label>
+                                                        <input type="text" class="form-control" id="inputZip">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox"
+                                                                id="gridCheck">
+                                                            <label class="form-check-label" for="gridCheck">
+                                                                Accept all <small><a href="#">Agreement </a></small>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-success fw-bold">Place
+                                                    Order</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
@@ -89,7 +255,87 @@
                             <div class="w-50">
                                 <h1>Honda X-Blade 160 ABS</h1>
                                 <h4>Price: 211,500 BDT</h4>
-                                <button type="button" class="btn btn-primary text-uppercase fw-bold">Order Now</button>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary text-uppercase fw-bold"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                    Order Now
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal2" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Place Order</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form class="row g-3">
+                                                    <div class="col-md-7">
+                                                        <label for="inputName4" class="form-label">Name</label>
+                                                        <input type="name" class="form-control" id="inputName4">
+                                                    </div>
+                                                    <div class="col-md-5">
+                                                        <label for="inputEmail4" class="form-label">Email</label>
+                                                        <input type="email" class="form-control" id="inputEmail4">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <label for="inputMobile4" class="form-label">Mobile</label>
+                                                        <input type="number" class="form-control" id="inputMobile4">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <label for="inputAddress" class="form-label">Delivary
+                                                            Address</label>
+                                                        <input type="text" class="form-control" id="inputAddress"
+                                                            placeholder="City, House, Road">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <label for="inputAddress2" class="form-label">Parmanent
+                                                            Address</label>
+                                                        <input type="text" class="form-control" id="inputAddress2"
+                                                            placeholder="City, House, Road">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <label for="inputCity" class="form-label">National ID</label>
+                                                        <input type="text" class="form-control" id="inputCity"
+                                                            placeholder="782xxxxxxxx">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <label for="inputState" class="form-label">District</label>
+                                                        <select id="inputState" class="form-select">
+                                                            <option selected>Choose...</option>
+                                                            <option>Dhaka</option>
+                                                            <option>Chattogram</option>
+                                                            <option>Khulna</option>
+                                                            <option>Rajshahi</option>
+                                                            <option>Mymensingh</option>
+                                                            <option>Borishal</option>
+                                                            <option>Cumilla</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <label for="inputZip" class="form-label">Zip Code</label>
+                                                        <input type="text" class="form-control" id="inputZip">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox"
+                                                                id="gridCheck">
+                                                            <label class="form-check-label" for="gridCheck">
+                                                                Accept all <small><a href="#">Agreement </a></small>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-success fw-bold">Place
+                                                    Order</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
