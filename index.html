@@ -17,8 +17,8 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <header id="home">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top mb-5">
             <div class="container">
                 <a class="navbar-brand d-flex align-items-center" href="#">
                     <img src="media/images/logo.png" alt="Logo" width="45" height="45"
@@ -35,16 +35,25 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active fw-bold" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fw-bold" href="#">Shop</a>
+                            <a class="nav-link fw-bold" href="#shop">Shop</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fw-bold" href="#">News</a>
+                            <a class="nav-link fw-bold" href="#news">News</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fw-bold" href="#">Contact</a>
+                            <a class="nav-link fw-bold" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#clients">Clients</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#brands">Brands</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link fw-bold" href="#">Login</a>
@@ -59,14 +68,14 @@
             </div>
         </nav>
         <!-- top banner section -->
-        <div id="carouselExampleAutoplaying" class="carousel slide mb-5" data-bs-ride="carousel">
-            <div class="carousel-inner custom-carousel-style p-4">
+        <div id="carouselExampleAutoplaying" class="carousel slide mb-5 mt-5" data-bs-ride="carousel">
+            <div class="carousel-inner custom-carousel-style p-4 mt-5">
                 <div class="carousel-item active">
                     <div class="row container">
                         <div
                             class="col-12 col-sm-12 col-md-8 col-lg-8 d-flex align-items-center justify-content-around">
                             <div class="w-50">
-                                <h1>Yamaha FZS FI V2 Double Disc</h1>
+                                <h1>Yamaha FZS FI V2 DD 2022</h1>
                                 <h4>Price: 224,500 BDT</h4>
                                 <!-- Button trigger modal -->
                                 <button type="button" class="btn btn-primary text-uppercase fw-bold"
@@ -361,7 +370,7 @@
     </header>
     <main>
         <!-- Best Fetaured Bikes 2023 -->
-        <section class="mt-5 container mb-5">
+        <section class="mt-5 container mb-5" id="shop">
             <div class="mb-4">
                 <h2 class="text-start fw-bold text-secondary lh-sm">Best Fetaured Bikes 2023</h2>
                 <a href="">
@@ -583,7 +592,7 @@
                                     <br>
                                     <span>Mileage: 38 Kmpl</span>
                                 </p>
-                                <h5 class="text-danger">PPrice: 315,950 BDT</h5>
+                                <h5 class="text-danger">Price: 315,950 BDT</h5>
                             </div>
                             <div class="d-flex justify-content-around">
                                 <button class="btn btn-secondary fw-bold text-uppercase">Order Now
@@ -608,7 +617,7 @@
                                     <br>
                                     <span>Mileage: 40 Kmpl</span>
                                 </p>
-                                <h5 class="text-danger">PPrice: 325,950 BDT</h5>
+                                <h5 class="text-danger">Price: 325,950 BDT</h5>
                             </div>
                             <div class="d-flex justify-content-around">
                                 <button class="btn btn-secondary fw-bold text-uppercase">Order Now
@@ -674,7 +683,7 @@
             </div>
         </section>
         <!-- latest News -->
-        <section class="mt-5 container mb-5">
+        <section class="mt-5 container mb-5" id="news">
             <h2 class="text-center fw-bold text-secondary mb-4">Latest News</h2>
             <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4 container">
                 <div class="col">
@@ -713,7 +722,7 @@
             </div>
         </section>
         <!-- New Bikes Price By Brand -->
-        <section class="mt-5 container mb-5">
+        <section class="mt-5 container mb-5" id="brands">
             <h2 class="text-center fw-bold text-secondary mb-4">New Bikes Price By Brand</h2>
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -806,7 +815,7 @@
             </div>
         </section>
         <!-- Happy Clients says -->
-        <section class="mt-5 mb-5 container">
+        <section class="mt-5 mb-5 container" id="clients">
             <h2 class="text-center fw-bold text-danger mt-5 mb-5">
                 <span class="logo-text-style fw-bold fs-3">Happy <span class="text-secondary">Clients</span> <span
                         class="text-success">Says</span>
@@ -854,7 +863,7 @@
             </div>
         </section>
         <!-- Frequently Asked Questions -->
-        <section class="mt-5 mb-5 container">
+        <section class="mt-5 mb-5 container" id="faq">
             <h2 class="text-center fw-bold text-secondary mb-4 mt-5">Frequently <span class="text-danger">Asked</span>
                 Questions</h2>
             <div class="mt-5 mb-5 container">
@@ -954,7 +963,7 @@
             </div>
         </section>
     </main>
-    <footer class="bg-dark">
+    <footer class="bg-dark" id="contact">
         <div class="p-4">
             <div class="text-white mt-2 fw-bold mb-4">
                 <a href="" class=" text-decoration-none text-primary"><span>About</span></a>
